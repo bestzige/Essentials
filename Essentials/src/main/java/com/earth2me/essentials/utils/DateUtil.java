@@ -162,7 +162,7 @@ public final class DateUtil {
             final int diff = dateDiff(types[i], fromDate, toDate, future);
             if (diff > 0) {
                 accuracy++;
-                sb.append(" ").append(diff).append(" ").append(names[i * 2 + (diff > 1 ? 1 : 0)]);
+                sb.append(" ").append(diff).append(names[i * 2 + (diff > 1 ? 1 : 0)]);
             }
         }
         // Preserve correctness in the original date object by removing the extra buffer time
